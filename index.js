@@ -1,4 +1,4 @@
 
-var Sticky = require('./dist/sticky.compile.js');
+var Sticky = require('./src/sticky.js');
 
 module.exports = Sticky;
