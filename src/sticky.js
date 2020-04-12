@@ -280,9 +280,6 @@ class Sticky {
           element.classList.remove(element.sticky.stickyClass);
         }
 
-        this.css(element, {
-          top: (element.sticky.container.rect.top + element.sticky.container.offsetHeight) - (this.scrollTop + element.sticky.rect.height) + 'px'
-        });
       } else {
 
         if (element.sticky.stickyClass) {
